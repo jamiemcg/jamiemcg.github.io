@@ -1,0 +1,52 @@
+.text-center {
+    text-align: center;
+    padding-top: 48px;
+}
+
+.publication-list {
+    text-align: left;
+}
+
+.publication {
+    font-weight: bold;
+}
+
+small {
+    font-weight: bold;
+}
+
+strong {
+    text-decoration: underline;
+}
+
+footer {
+    padding-top: 20px;
+}
+
+.table {
+    padding-top: 20px;
+}
+
+ul {
+    text-align: left;
+}
+
+.custom-container {
+    width: 100%;
+}
+
+.badge {
+    float: right;
+}
+
+.grid-heading {
+    padding-top: 10px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Crete Round', cursive;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
