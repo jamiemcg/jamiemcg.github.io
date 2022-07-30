@@ -23,6 +23,14 @@ $(document).ready(function() {
         }, 500);
     });
 
+    $("#link-interests").click(function(e) {
+        e.preventDefault();
+
+        $("html, body").animate({
+            scrollTop: $("#interests").offset().top - 64
+        }, 500);
+    });
+
     $("#link-publications").click(function(e) {
         e.preventDefault();
 
