@@ -35,8 +35,12 @@ ul {
     width: 100%;
 }
 
-.badge {
+.dimensions-badge {
     float: right;
+}
+
+.badge-success {
+    background-color: #17a2b8;
 }
 
 .grid-heading {
