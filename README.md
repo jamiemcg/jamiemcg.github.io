@@ -1,1 +1,1 @@
-[Jamie McGowan CV Website](https://jamiemcg.github.io)
+[Jamie McGowan CV Website](https://jamiemcgowan.ie)
