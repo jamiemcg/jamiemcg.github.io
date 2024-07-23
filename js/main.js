@@ -39,19 +39,11 @@ $(document).ready(function() {
         }, 500);
     });
 
-    $("#link-awards").click(function(e) {
+    $("#link-tools").click(function(e) {
         e.preventDefault();
 
         $("html, body").animate({
-            scrollTop: $("#awards").offset().top - 64
-        }, 500);
-    });
-
-    $("#link-presentations").click(function(e) {
-        e.preventDefault();
-
-        $("html, body").animate({
-            scrollTop: $("#presentations").offset().top - 64
+            scrollTop: $("#tools").offset().top - 64
         }, 500);
     });
 

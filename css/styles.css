@@ -54,3 +54,8 @@ h1, h2, h3, h4, h5 {
 body {
     font-family: 'Raleway', sans-serif;
 }
+
+.card {
+    min-height: 180px;
+    margin-top: 20px;
+}

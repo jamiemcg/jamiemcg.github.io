@@ -39,9 +39,9 @@
                <li class="nav-item">
                   <a class="nav-link" id="link-publications" href="#">Publications</a>
                </li>
-               <!-- <li class="nav-item">
-                  <a class="nav-link" id="link-awards" href="#">Awards</a>
-               </li> -->
+               <li class="nav-item">
+                  <a class="nav-link" id="link-tools" href="#">Tools</a>
+               </li>
             </ul>
          </div>
       </nav>
@@ -119,6 +119,27 @@
             <br>
             <h3 id="publications">Publications</h3>
             <div class="list-group publication-list">
+               <a href="https://www.biorxiv.org/content/10.1101/2024.07.18.603678v1" target="_blank"
+                  class="list-group-item list-group-item-action">
+                  <div class="custom-container">
+                     <div class="row">
+                        <div class="col-10">
+                           <small>2024</small>
+                           <p class="publication">Multiple Independent Genetic Code Reassignments of the UAG Stop Codon in Phyllopharyngean Ciliates</p>
+                           <p><strong>Jamie McGowan</strong>, Thomas A. Richards, Neil Hall, David Swarbreck</p>
+                           <p><span class="badge badge-warning">bioRxiv Preprint</span></p>
+                        </div>
+                        <div class="col">
+                           <div style="text-align: right;" data-badge-type="donut"
+                              data-doi="10.1101/2024.07.18.603678v1" data-hide-no-mentions="true"
+                              class="altmetric-embed"></div>
+                           <span class="dimensions-badge __dimensions_badge_embed__"
+                              data-doi="10.1101/2024.07.18.603678v1" data-style="small_circle"
+                              data-hide-zero-citations="true"></span>
+                        </div>
+                     </div>
+                  </div>
+               </a>
                <a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1010913" target="_blank"
                   class="list-group-item list-group-item-action">
                   <div class="custom-container">
@@ -168,7 +189,7 @@
                           </div>
                       </div>
                   </div>
-                  </a> -->
+               </a> -->
                <a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1010502" target="_blank"
                   class="list-group-item list-group-item-action">
                   <div class="custom-container">
@@ -496,73 +517,85 @@
                </a>
             </div>
             <br>
-            <!-- <h3 id="awards">Awards</h3>
-            <div class="list-group publication-list">
-               <a class="list-group-item list-group-item-action">
-                  <div class="d-flex w-100 justify-content-between">
-                     <p><span class="publication">Outstanding scientific contribution</span> - Earlham Institute
-                     </p>
-                     <small>2023</small>
+            
+            <br>
+            <h3 id="tools">Tools</h3>
+            <!-- OGOB, busco phylogenomics, skim-seq, coassembly, bioinf tools, oomycete networks -->
+            <div class="row">
+               <div class="col-sm-6">
+                 <div class="card">
+                   <div class="card-body">
+                     <h5 class="card-title">OGOB - Oomycete Gene Order Browser</h5>
+                     <p class="card-text">A curated database that facilitates comparative genomic and syntenic analyses of oomycete species</p>
+                     <a href="https://ogob.ie" target="_blank" class="btn btn-secondary">OGOB</a>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-sm-6">
+                 <div class="card">
+                   <div class="card-body">
+                     <h5 class="card-title">BUSCO Phylogenomics</h5>
+                     <p class="card-text">A simple Python pipeline to construct species phylogenies using BUSCO proteins/genes with supermatrix and supertree appraoches</p>
+                     <a href="https://github.com/jamiemcg/BUSCO_phylogenomics" target="_blank" class="btn btn-secondary">GitHub</a>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-sm-6">
+                 <div class="card">
+                   <div class="card-body">
+                     <h5 class="card-title">SkimSeqQC Pipeline</h5>
+                     <p class="card-text">A snakemake pipeline for QC of low-coverage skim-sequencing of genome and transcriptome data</p>
+                     <a href="https://github.com/EI-CoreBioinformatics/SkimSeqQC" target="_blank" class="btn btn-secondary">GitHub</a>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-sm-6">
+                 <div class="card">
+                   <div class="card-body">
+                     <h5 class="card-title">Coassembly Pipeline</h5>
+                     <p class="card-text">A snakemake pipeline to generate and QC genome (co)assemblies and transcriptome alignment</p>
+                     <a href="https://github.com/EI-CoreBioinformatics/CoassemblyPipeline" target="_blank" class="btn btn-secondary">GitHub</a>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-sm-6">
+                 <div class="card">
+                   <div class="card-body">
+                     <h5 class="card-title">Bioinf Tools</h5>
+                     <p class="card-text">A collection of simple easy to use online bioinformatics tools</p>
+                     <a href="https://jamiemcgowan.ie/bioinf" target="_blank" class="btn btn-secondary">Bioinf Tools</a>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Assembly Kmer Clustering</h5>
+                      <p class="card-text">A Python/R tool to visualise and cluster contigs from a genome assembly. Useful for metagenomes or contaminated assemblies</p>
+                      <a href="https://github.com/jamiemcg/assembly_kmer_clustering" target="_blank" class="btn btn-secondary">GitHub</a>
+                    </div>
                   </div>
-               </a>
-               <a class="list-group-item list-group-item-action">
-                  <div class="d-flex w-100 justify-content-between">
-                     <p><span class="publication">Publication of 2023</span> - Earlham Institute
-                     </p>
-                     <small>2023</small>
+                </div>
+               <div class="col-sm-6">
+                 <div class="card">
+                   <div class="card-body">
+                     <h5 class="card-title">Oomycete Networks</h5>
+                     <p class="card-text">An interactive website to explore sequence similarity networks of oomycete effector proteins</p>
+                     <a href="https://oomycetes.github.io/" target="_blank" class="btn btn-secondary">Oomycete Networks</a>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Telomere Search</h5>
+                      <p class="card-text">A Python script to identify telomeric repeats using regular expressions</p>
+                      <a href="https://github.com/jamiemcg/TelomereSearch" target="_blank" class="btn btn-secondary">GitHub</a>
+                    </div>
                   </div>
-               </a>
-               <a class="list-group-item list-group-item-action">
-                  <div class="d-flex w-100 justify-content-between">
-                     <p><span class="publication">Best poster presentation</span> - Early Career Microbiologists'
-                        Forum
-                     </p>
-                     <small>2019</small>
-                  </div>
-               </a>
-               <a class="list-group-item list-group-item-action">
-                  <div class="d-flex w-100 justify-content-between">
-                     <p><span class="publication">Conference travel award</span> - Genetics Society of America (GSA)
-                     </p>
-                     <small>2019</small>
-                  </div>
-               </a>
-               <a class="list-group-item list-group-item-action">
-                  <div class="d-flex w-100 justify-content-between">
-                     <p><span class="publication">Society conference grant</span> - Microbiology Society</p>
-                     <small>2019</small>
-                  </div>
-               </a>
-               <a class="list-group-item list-group-item-action">
-                  <div class="d-flex w-100 justify-content-between">
-                     <p><span class="publication">Best poster presentation</span> - Molecular and Computational
-                        Biology Symposium
-                     </p>
-                     <small>2018</small>
-                  </div>
-               </a>
-               <a class="list-group-item list-group-item-action">
-                  <div class="d-flex w-100 justify-content-between">
-                     <p><span class="publication">Society conference grant</span> - Microbiology Society</p>
-                     <small>2018</small>
-                  </div>
-               </a>
-               <a class="list-group-item list-group-item-action">
-                  <div class="d-flex w-100 justify-content-between">
-                     <p> <span class="publication">Best oral presentation</span> - Irish Fungal Society</p>
-                     <small>2017</small>
-                  </div>
-               </a>
-               <a class="list-group-item list-group-item-action">
-                  <div class="d-flex w-100 justify-content-between">
-                     <p><span class="publication">IRC Government of Ireland Postgraduate Scholarship</span> - Irish
-                        Research Council
-                     </p>
-                     <small>2016 - 2020</small>
-                  </div>
-               </a>
+                </div>
             </div>
-            <br> -->
+
          </div>
       </div>
       <footer class="footer">
