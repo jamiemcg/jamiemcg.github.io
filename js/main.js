@@ -51,4 +51,10 @@ $(document).ready(function() {
     $('.navbar-collapse a').click(function(){
     $(".navbar-collapse").collapse('hide');
     });
+
+    $(".button-pdf").click(function(e) {
+        e.preventDefault();
+        var pdf_location = $(this).data("pdf-file")
+        window.open(pdf_location);
+    });
 })
