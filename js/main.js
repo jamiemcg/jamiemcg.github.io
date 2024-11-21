@@ -15,11 +15,11 @@ $(document).ready(function() {
         }, 500);
     });
     
-    $("#link-education").click(function(e) {
+    $("#link-experience").click(function(e) {
         e.preventDefault();
 
         $("html, body").animate({
-            scrollTop: $("#education").offset().top - 64
+            scrollTop: $("#experience").offset().top - 64
         }, 500);
     });
 
