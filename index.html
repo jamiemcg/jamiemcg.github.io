@@ -1,85 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <head>
-      <title>Jamie McGowan - Bioinformatics & Evolutionary Genomics</title>
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      <link rel="stylesheet" href="css/styles.css">
-      <link href="https://fonts.googleapis.com/css?family=Crete+Round|Patua+One&display=swap" rel="stylesheet">
-      <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-      <link rel="manifest" href="images/site.webmanifest">
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107699160-2"></script>
-      <script>
-         window.dataLayer = window.dataLayer || [];
-         function gtag() { dataLayer.push(arguments); }
-         gtag('js', new Date());
-         gtag('config', 'UA-107699160-2');
-      </script>
-   </head>
-   <body>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-         <a class="navbar-brand" id="link-jamie" href="#">Jamie McGowan</a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+   <title>Jamie McGowan - Bioinformatics, Genetics, and Genomics</title>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/styles.css">
+   <link href="https://fonts.googleapis.com/css?family=Crete+Round|Patua+One&display=swap" rel="stylesheet">
+   <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+   <link rel="manifest" href="images/site.webmanifest">
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107699160-2"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+         dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'UA-107699160-2');
+   </script>
+</head>
+
+<body>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" id="link-jamie" href="#">Jamie McGowan</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-               <li class="nav-item">
-                  <a class="nav-link" id="link-about" href="#">About</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" id="link-interests" href="#">Interests</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" id="link-experience" href="#">Experience</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" id="link-publications" href="#">Publications</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" id="link-tools" href="#">Tools</a>
-               </li>
-            </ul>
-         </div>
-      </nav>
-      <div class="container">
-         <div class="text-center">
-            <br>
-            <h1 id="about">Jamie McGowan</h1>
-            <h3>Postdoctoral Scientist - Earlham Institute</h3>
-            <img src="images/profile.png" width="200px" alt="">
-            <br><br>
-            <a href="https://scholar.google.com/citations?hl=en&user=3Yl2tXwAAAAJ" target="_blank"><img src="images/google_scholar.png" width="40px"></a>
-            <a href="https://www.linkedin.com/in/mcgowanjamie/" target="_blank"><img src="images/LI-In-Bug.png" width="40px"></a>
-            <a href="https://orcid.org/0000-0002-4240-5175" target="_blank"><img src="images/orcid.png" width="40px"></a>
-            <a href="https://www.researchgate.net/profile/Jamie_Mcgowan2" target="_blank"><img src="images/RG_square_green.jpg" width="40px"></a>
-            <a href="https://github.com/jamiemcg" target="_blank"><img src="images/github-mark-120px.png" width="40px"></a>
-            <a href="https://twitter.com/_jamiemcgowan" target="_blank"><img src="images/Twitter_Logo_WhiteOnBlue.png" width="40px"></a>
-            <a href="mailto: jamie.mcgowan@earlham.ac.uk"><img src="images/email.png" width="40px"></a>
-            <br>
-            <br><br>
-            <p style="text-align: justify;">I am a postdoc in the <a href="https://www.earlham.ac.uk/swarbreck-group" target="_blank">Swarbreck Group</a> at the <a
-               href="https://www.earlham.ac.uk/jamie-mcgowan-0" target="_blank">Earlham Institute</a>. I am working
-               on sequencing protist genomes as part of the <a href="https://www.darwintreeoflife.org/"
-                  target="_blank">Darwin Tree of Life Project (DToL)</a>, which aims to sequence the genomes of all
-               ~70,000 eukaryotic species in Britain and Ireland. My main interests are in the broad areas of
-               evolutionary genomics and bioinformatics. I am particularly interested in microbial/single-celled
-               eukaryotes (protists) as these include the most under sampled, diverse lineages of eukaryotes and some
-               of the most devastating pathogens.
-            </p>
-            <p style="text-align: justify">Prior to joining the Earlham Institute, I carried out my PhD research at <a
-               href="https://maynoothuniversity.ie" target="_blank">Maynooth University</a> with <a
-               href="https://www.maynoothuniversity.ie/biology/our-people/david-fitzpatrick" target="_blank">Dr
-               David Fitzpatrick</a>. Here, I applied a mix of bioinformatics, genomics, and proteomics techniques
-               to study genomic evolution in <i>Phytophthora</i> and other oomycete species. These microbial pathogens
-               represent one of the biggest threats to global food security and natural ecosystems. I also obtained a
-               first-class honours BSc degree in Biology and Computer Science from Maynooth University.
-            </p>
-            <h3 id="interests">Research Interests</h3>
-            <p>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+               <a class="nav-link" id="link-about" href="#">About</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" id="link-interests" href="#">Interests</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" id="link-experience" href="#">Experience</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" id="link-publications" href="#">Publications</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" id="link-tools" href="#">Tools</a>
+            </li>
+         </ul>
+      </div>
+   </nav>
+   <div class="container">
+      <div class="text-center">
+         <br>
+         <h1 id="about">Jamie McGowan</h1>
+         <h3>Assistant Professor at University College Dublin</h3>
+         <img src="images/profile.png" width="200px" alt="">
+         <br><br>
+         <a href="https://scholar.google.com/citations?hl=en&user=3Yl2tXwAAAAJ" target="_blank"><img
+               src="images/google_scholar.png" width="40px"></a>
+         <a href="https://www.linkedin.com/in/mcgowanjamie/" target="_blank"><img src="images/LI-In-Bug.png"
+               width="40px"></a>
+         <a href="https://orcid.org/0000-0002-4240-5175" target="_blank"><img src="images/orcid.png" width="40px"></a>
+         <a href="https://www.researchgate.net/profile/Jamie_Mcgowan2" target="_blank"><img
+               src="images/RG_square_green.jpg" width="40px"></a>
+         <a href="https://github.com/jamiemcg" target="_blank"><img src="images/github-mark-120px.png" width="40px"></a>
+         <!-- <a href="https://twitter.com/_jamiemcgowan" target="_blank"><img src="images/Twitter_Logo_WhiteOnBlue.png" width="40px"></a> -->
+         <a href="mailto: jamie.mcgowan@earlham.ac.uk"><img src="images/email.png" width="40px"></a>
+         <br>
+         <br><br>
+         <p style="text-align: justify;">I am a Lecturer/Assistant Professor in the <a href="https://www.ucd.ie/sbbs/"
+               target="_blank">UCD School of Biomolecular & Biomedical Science (SBBS)</a>. I am an interdisciplinary
+            scientist with a background in both Biology and Computer Science. My research spans bioinformatics,
+            evolutionary genomics, microbiology, metagenomics, and single-cell genomics. I am particularly interested in
+            the evolution of microbial eukaryotes (protists and fungi) which represent the most diverse yet poorly
+            understood lineages of eukaryotes, and include some of the most devastating pathogens of animals and plants.
+
+         </p>
+         <p style="text-align: justify;">
+
+            I carried out postdoctoral research at the <a href="https://earlham.ac.uk" target="_blank">Earlham
+               Institute</a> in Norwich, where I led the analysis of protist genome sequencing data as part of the <a
+               href="https://www.darwintreeoflife.org/" target="_blank">Darwin Tree of Life Project (DToL)</a> - a large
+            scale project aiming to sequence the genomes of all ~70,000 eukaryotic species found in Britain and Ireland.
+            Prior to this, I completed my PhD at <a href="https://maynoothuniversity.ie" target="_blank">Maynooth
+               University</a> with <a href="https://www.maynoothuniversity.ie/biology/our-people/david-fitzpatrick"
+               target="_blank">Prof.
+               David Fitzpatrick</a>, applying a mix of bioinformatics, genomics, and proteomics techniques to study
+            genomic evolution in <i>Phytophthora</i> and other oomycete species. These microbial pathogens represent one
+            of the biggest threats to global food security and natural ecosystems. I also obtained a first-class honours
+            BSc degree in Biology and Computer Science from Maynooth University.
+         </p>
+
+         <h3 id="interests">Research Interests</h3>
+         <p>
             <div class="btn-group flex-wrap" role="group">
                <button type="button" class="btn btn-secondary">Bioinformatics</button>
                <button type="button" class="btn btn-info">Evolutionary Genomics</button>
@@ -89,101 +104,113 @@
                <button type="button" class="btn btn-info">Phylogenomics</button>
                <button type="button" class="btn btn-secondary">Protists</button>
             </div>
-            </p>
-            <br>
+         </p>
+         <br>
 
-            <h3 id="experience">Education and Experience</h3>
-            <table class="table">
-               <tbody>
-                  <tr>
-                     <th scope="row">2020 - Present</th>
-                     <td>Postdoctoral Scientist</td>
-                     <td>Earlham Institute, UK</td>
-                  </tr>
-                  <tr>
-                     <th scope="row">2016 - 2020</th>
-                     <td>PhD in Bioinformatics and Evolutionary Genomics</td>
-                     <td>Maynooth University, Ireland</td>
-                  </tr>
-                  <tr>
-                     <th scope="row">2012 - 2016</th>
-                     <td>BSc (Double Honours) in Biology and Computer Science</td>
-                     <td>Maynooth University, Ireland</td>
-                  </tr>
-               </tbody>
-            </table>
-            <br>
-            <h3 id="publications">Publications</h3>
-            <div class="list-group publication-list">
-                <a href="https://academic.oup.com/gbe/advance-article/doi/10.1093/gbe/evaf003/7951093" target="_blank"
-                  class="list-group-item list-group-item-action">
-                  <div class="custom-container">
-                     <div class="row">
-                        <div class="col-10">
-                           <small>2025</small>
-                           <p class="publication">Nuclear and mitochondrial genome assemblies for the endangered wood-decaying fungus Somion occarium</p>
-                           <p>*Rowena Hill, <strong>*Jamie McGowan</strong>, Vendula Brabcová, Seanna McTaggart, Naomi Irish, Tom Barker, Vanda Knitlhoffer, Sacha Lucchini, Kendall Baker, Leah Catchpole, Chris Watkins, Karim Gharbi, Gemy Kaithakottil, Alan Tracey, Jonathan MD Wood, Michal Tomšovský, Petr Baldrian, David Swarbreck, Neil Hall</p>
-                           <p><span class="badge badge-success">Genome Biology and Evolution (GBE)</span> <button class="badge badge-secondary button-pdf" data-pdf-file="pdfs/evaf003.PDF">PDF File</button></p>
-                        </div>
-                        <div class="col">
-                           <div style="text-align: right;" data-badge-type="donut"
-                              data-doi="10.1093/gbe/evaf003" data-hide-no-mentions="true"
-                              class="altmetric-embed"></div>
-                           <span class="dimensions-badge __dimensions_badge_embed__"
-                              data-doi="10.1093/gbe/evaf003" data-style="small_circle"
-                              data-hide-zero-citations="true"></span>
-                        </div>
+         <h3 id="experience">Education and Experience</h3>
+         <table class="table table-bordered">
+            <tbody>
+               <tr>
+                  <th scope="row">2025 - Present</th>
+                  <td>Lecturer/Assistant Professor</td>
+                  <td>University College Dublin, Ireland</td>
+               </tr>
+               <tr>
+                  <th scope="row">2020 - 2025</th>
+                  <td>Postdoctoral Scientist</td>
+                  <td>Earlham Institute, UK</td>
+               </tr>
+               <tr>
+                  <th scope="row">2016 - 2020</th>
+                  <td>PhD in Bioinformatics and Evolutionary Genomics</td>
+                  <td>Maynooth University, Ireland</td>
+               </tr>
+               <tr>
+                  <th scope="row">2012 - 2016</th>
+                  <td>BSc (Double Honours) in Biology and Computer Science</td>
+                  <td>Maynooth University, Ireland</td>
+               </tr>
+            </tbody>
+         </table>
+         <br>
+         <h3 id="publications">Publications</h3>
+         <div class="list-group publication-list">
+            <a href="https://academic.oup.com/gbe/advance-article/doi/10.1093/gbe/evaf003/7951093" target="_blank"
+               class="list-group-item list-group-item-action">
+               <div class="custom-container">
+                  <div class="row">
+                     <div class="col-10">
+                        <small>2025</small>
+                        <p class="publication">Nuclear and mitochondrial genome assemblies for the endangered
+                           wood-decaying fungus Somion occarium</p>
+                        <p>*Rowena Hill, <strong>*Jamie McGowan</strong>, Vendula Brabcová, Seanna McTaggart, Naomi
+                           Irish, Tom Barker, Vanda Knitlhoffer, Sacha Lucchini, Kendall Baker, Leah Catchpole, Chris
+                           Watkins, Karim Gharbi, Gemy Kaithakottil, Alan Tracey, Jonathan MD Wood, Michal Tomšovský,
+                           Petr Baldrian, David Swarbreck, Neil Hall</p>
+                        <p><span class="badge badge-success">Genome Biology and Evolution (GBE)</span> <button
+                              class="badge badge-secondary button-pdf" data-pdf-file="pdfs/evaf003.PDF">PDF
+                              File</button></p>
+                     </div>
+                     <div class="col">
+                        <div style="text-align: right;" data-badge-type="donut" data-doi="10.1093/gbe/evaf003"
+                           data-hide-no-mentions="true" class="altmetric-embed"></div>
+                        <span class="dimensions-badge __dimensions_badge_embed__" data-doi="10.1093/gbe/evaf003"
+                           data-style="small_circle" data-hide-zero-citations="true"></span>
                      </div>
                   </div>
-               </a>
-               <a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011512" target="_blank"
-                  class="list-group-item list-group-item-action">
-                  <div class="custom-container">
-                     <div class="row">
-                        <div class="col-10">
-                           <small>2024</small>
-                           <p class="publication">Multiple Independent Genetic Code Reassignments of the UAG Stop Codon in Phyllopharyngean Ciliates</p>
-                           <p><strong>Jamie McGowan</strong>, Thomas A. Richards, Neil Hall, David Swarbreck</p>
-                           <p><span class="badge badge-success">PLOS Genetics</span> <button class="badge badge-secondary button-pdf" data-pdf-file="pdfs/journal.pgen.1011512.pdf">PDF File</button></p>
-                        </div>
-                        <div class="col">
-                           <div style="text-align: right;" data-badge-type="donut"
-                              data-doi="10.1371/journal.pgen.1011512" data-hide-no-mentions="true"
-                              class="altmetric-embed"></div>
-                           <span class="dimensions-badge __dimensions_badge_embed__"
-                              data-doi="10.1371/journal.pgen.1011512" data-style="small_circle"
-                              data-hide-zero-citations="true"></span>
-                        </div>
+               </div>
+            </a>
+            <a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011512" target="_blank"
+               class="list-group-item list-group-item-action">
+               <div class="custom-container">
+                  <div class="row">
+                     <div class="col-10">
+                        <small>2024</small>
+                        <p class="publication">Multiple Independent Genetic Code Reassignments of the UAG Stop Codon in
+                           Phyllopharyngean Ciliates</p>
+                        <p><strong>Jamie McGowan</strong>, Thomas A. Richards, Neil Hall, David Swarbreck</p>
+                        <p><span class="badge badge-success">PLOS Genetics</span> <button
+                              class="badge badge-secondary button-pdf" data-pdf-file="pdfs/journal.pgen.1011512.pdf">PDF
+                              File</button></p>
+                     </div>
+                     <div class="col">
+                        <div style="text-align: right;" data-badge-type="donut" data-doi="10.1371/journal.pgen.1011512"
+                           data-hide-no-mentions="true" class="altmetric-embed"></div>
+                        <span class="dimensions-badge __dimensions_badge_embed__"
+                           data-doi="10.1371/journal.pgen.1011512" data-style="small_circle"
+                           data-hide-zero-citations="true"></span>
                      </div>
                   </div>
-               </a>
-               <a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1010913" target="_blank"
-                  class="list-group-item list-group-item-action">
-                  <div class="custom-container">
-                     <div class="row">
-                        <div class="col-10">
-                           <small>2023</small>
-                           <p class="publication">Identification of a Non-Canonical Ciliate Nuclear Genetic Code
-                              Where UAA and UAG Code for Different Amino Acids
-                           </p>
-                           <p><strong>Jamie McGowan</strong>, Estelle S. Kilias, Elisabet Alacid, James Lipscombe,
-                              Benjamin H. Jenkins, Karim Gharbi, Gemy G. Kaithakottil, Iain C. Macaulay, Seanna
-                              McTaggart, Sally D. Warring, Thomas A. Richards, Neil Hall, David Swarbreck
-                           </p>
-                           <p><span class="badge badge-success">PLOS Genetics</span> <button class="badge badge-secondary button-pdf" data-pdf-file="pdfs/journal.pgen.1010913.pdf">PDF File</button></p>
-                        </div>
-                        <div class="col">
-                           <div style="text-align: right;" data-badge-type="donut"
-                              data-doi="10.1371/journal.pgen.1010913" data-hide-no-mentions="true"
-                              class="altmetric-embed"></div>
-                           <span class="dimensions-badge __dimensions_badge_embed__"
-                              data-doi="10.1371/journal.pgen.1010913" data-style="small_circle"
-                              data-hide-zero-citations="true"></span>
-                        </div>
+               </div>
+            </a>
+            <a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1010913" target="_blank"
+               class="list-group-item list-group-item-action">
+               <div class="custom-container">
+                  <div class="row">
+                     <div class="col-10">
+                        <small>2023</small>
+                        <p class="publication">Identification of a Non-Canonical Ciliate Nuclear Genetic Code
+                           Where UAA and UAG Code for Different Amino Acids
+                        </p>
+                        <p><strong>Jamie McGowan</strong>, Estelle S. Kilias, Elisabet Alacid, James Lipscombe,
+                           Benjamin H. Jenkins, Karim Gharbi, Gemy G. Kaithakottil, Iain C. Macaulay, Seanna
+                           McTaggart, Sally D. Warring, Thomas A. Richards, Neil Hall, David Swarbreck
+                        </p>
+                        <p><span class="badge badge-success">PLOS Genetics</span> <button
+                              class="badge badge-secondary button-pdf" data-pdf-file="pdfs/journal.pgen.1010913.pdf">PDF
+                              File</button></p>
+                     </div>
+                     <div class="col">
+                        <div style="text-align: right;" data-badge-type="donut" data-doi="10.1371/journal.pgen.1010913"
+                           data-hide-no-mentions="true" class="altmetric-embed"></div>
+                        <span class="dimensions-badge __dimensions_badge_embed__"
+                           data-doi="10.1371/journal.pgen.1010913" data-style="small_circle"
+                           data-hide-zero-citations="true"></span>
                      </div>
                   </div>
-               </a>
-               <!-- <a href="https://www.biorxiv.org/content/10.1101/2022.12.16.520718v1" target="_blank"
+               </div>
+            </a>
+            <!-- <a href="https://www.biorxiv.org/content/10.1101/2022.12.16.520718v1" target="_blank"
                   class="list-group-item list-group-item-action">
                   <div class="custom-container">
                       <div class="row">
@@ -207,401 +234,420 @@
                       </div>
                   </div>
                </a> -->
-               <a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1010502" target="_blank"
-                  class="list-group-item list-group-item-action">
-                  <div class="custom-container">
-                     <div class="row">
-                        <div class="col-10">
-                           <small>2022</small>
-                           <p class="publication">F-box receptor mediated control of substrate stability and
-                              subcellular location organizes cellular development of <i>Aspergillus nidulans</i>
-                           </p>
-                           <p>&Ouml;zlem Sarikaya Bayram, &Ouml;zg&uuml;r Bayram, Betim Karahoda, Cindy Meister,
-                              Anna M. K&ouml;hler, Sabine Thieme, Nadia Elramli, Dean Frawley, <strong>Jamie
+            <a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1010502" target="_blank"
+               class="list-group-item list-group-item-action">
+               <div class="custom-container">
+                  <div class="row">
+                     <div class="col-10">
+                        <small>2022</small>
+                        <p class="publication">F-box receptor mediated control of substrate stability and
+                           subcellular location organizes cellular development of <i>Aspergillus nidulans</i>
+                        </p>
+                        <p>&Ouml;zlem Sarikaya Bayram, &Ouml;zg&uuml;r Bayram, Betim Karahoda, Cindy Meister,
+                           Anna M. K&ouml;hler, Sabine Thieme, Nadia Elramli, Dean Frawley, <strong>Jamie
                               McGowan</strong>, David A. Fitzpatrick, Kerstin Schmitt, Leandro Jose de Assis,
-                              Oliver Valerius, Gustavo H. Goldman, Gerhard H. Braus
-                           </p>
-                           <p><span class="badge badge-success">PLOS Genetics</span> <button class="badge badge-secondary button-pdf" data-pdf-file="pdfs/journal.pgen.1010502.pdf">PDF File</button></p>
-                        </div>
-                        <div class="col">
-                           <div style="text-align: right;" data-badge-type="donut"
-                              data-doi="10.1371/journal.pgen.1010502" data-hide-no-mentions="true"
-                              class="altmetric-embed"></div>
-                           <span class="dimensions-badge __dimensions_badge_embed__"
-                              data-doi="10.1371/journal.pgen.1010502" data-style="small_circle"
-                              data-hide-zero-citations="true"></span>
-                        </div>
+                           Oliver Valerius, Gustavo H. Goldman, Gerhard H. Braus
+                        </p>
+                        <p><span class="badge badge-success">PLOS Genetics</span> <button
+                              class="badge badge-secondary button-pdf" data-pdf-file="pdfs/journal.pgen.1010502.pdf">PDF
+                              File</button></p>
+                     </div>
+                     <div class="col">
+                        <div style="text-align: right;" data-badge-type="donut" data-doi="10.1371/journal.pgen.1010502"
+                           data-hide-no-mentions="true" class="altmetric-embed"></div>
+                        <span class="dimensions-badge __dimensions_badge_embed__"
+                           data-doi="10.1371/journal.pgen.1010502" data-style="small_circle"
+                           data-hide-zero-citations="true"></span>
                      </div>
                   </div>
-               </a>
-               <a href="https://journals.asm.org/doi/10.1128/spectrum.02268-21" target="_blank"
-                  class="list-group-item list-group-item-action">
-                  <div class="custom-container">
-                     <div class="row">
-                        <div class="col-10">
-                           <small>2022</small>
-                           <p class="publication">Genome of <i>Pythium myriotylum</i> Uncovers an Extensive Arsenal
-                              of Virulence-Related Genes among the Broad-Host-Range Necrotrophic <i>Pythium</i>
-                              Plant Pathogens
-                           </p>
-                           <p>Paul Daly, Dongmei Zhou, Danyu Shen, Yifan Chen, Taiqiang Xue, Siqiao Chen, Qimeng
-                              Zhang, Jinfeng Zhang, <strong>Jamie McGowan</strong>, Feng Cai, Guan Pang, Nan Wang,
-                              Taha Majid Mahmood Sheikh, Sheng Deng, Jingjing Li, H&uuml;seyin Okan Soykam, Irem
-                              Kara, David A. Fitzpatrick, Irina S. Druzhinina, G&uuml;nseli Bayram Akcapinar,
-                              Lihui Wei 
-                           </p>
-                           <p><span class="badge badge-success">Microbiology Spectrum</span> <button class="badge badge-secondary button-pdf" data-pdf-file="pdfs/daly-et-al-2022.pdf">PDF File</button></p>
-                        </div>
-                        <div class="col">
-                           <div style="text-align: right;" data-badge-type="donut"
-                              data-doi="10.1128/spectrum.02268-21" data-hide-no-mentions="true"
-                              class="altmetric-embed"></div>
-                           <span class="dimensions-badge __dimensions_badge_embed__"
-                              data-doi="10.1128/spectrum.02268-21" data-style="small_circle"
-                              data-hide-zero-citations="true"></span>
-                        </div>
+               </div>
+            </a>
+            <a href="https://journals.asm.org/doi/10.1128/spectrum.02268-21" target="_blank"
+               class="list-group-item list-group-item-action">
+               <div class="custom-container">
+                  <div class="row">
+                     <div class="col-10">
+                        <small>2022</small>
+                        <p class="publication">Genome of <i>Pythium myriotylum</i> Uncovers an Extensive Arsenal
+                           of Virulence-Related Genes among the Broad-Host-Range Necrotrophic <i>Pythium</i>
+                           Plant Pathogens
+                        </p>
+                        <p>Paul Daly, Dongmei Zhou, Danyu Shen, Yifan Chen, Taiqiang Xue, Siqiao Chen, Qimeng
+                           Zhang, Jinfeng Zhang, <strong>Jamie McGowan</strong>, Feng Cai, Guan Pang, Nan Wang,
+                           Taha Majid Mahmood Sheikh, Sheng Deng, Jingjing Li, H&uuml;seyin Okan Soykam, Irem
+                           Kara, David A. Fitzpatrick, Irina S. Druzhinina, G&uuml;nseli Bayram Akcapinar,
+                           Lihui Wei
+                        </p>
+                        <p><span class="badge badge-success">Microbiology Spectrum</span> <button
+                              class="badge badge-secondary button-pdf" data-pdf-file="pdfs/daly-et-al-2022.pdf">PDF
+                              File</button></p>
+                     </div>
+                     <div class="col">
+                        <div style="text-align: right;" data-badge-type="donut" data-doi="10.1128/spectrum.02268-21"
+                           data-hide-no-mentions="true" class="altmetric-embed"></div>
+                        <span class="dimensions-badge __dimensions_badge_embed__" data-doi="10.1128/spectrum.02268-21"
+                           data-style="small_circle" data-hide-zero-citations="true"></span>
                      </div>
                   </div>
-               </a>
-               <a href="https://www.frontiersin.org/articles/10.3389/fmicb.2021.765872" target="_blank"
-                  class="list-group-item list-group-item-action">
-                  <div class="custom-container">
-                     <div class="row">
-                        <div class="col-10">
-                           <small>2021</small>
-                           <p class="publication">Dual-transcriptomic, microscopic, and biocontrol analyses of the
-                              interaction between the bioeffector <i>Pythium oligandrum</i> and the <i>Pythium</i>
-                              soft-rot of ginger pathogen <i>Pythium myriotylum</i>
-                           </p>
-                           <p>Paul Daly, Siqiao Chen, Taiqiang Xue, Jingjing Li, Taha M. Sheikh, Qimeng Zhang,
-                              Xuehai Wang, Jinfeng Zhang, David Fitzpatrick, <strong>Jamie McGowan</strong>,
-                              Xiujuan Shi, Sheng Deng, Min Jiu, Dongmei Zhou, Irina Druzhinina, Lihui Wei
-                           </p>
-                           <p><span class="badge badge-success">Frontiers in Microbiology</span> <button class="badge badge-secondary button-pdf" data-pdf-file="pdfs/fmicb-12-765872.pdf">PDF File</button></p>
-                        </div>
-                        <div class="col">
-                           <div style="text-align: right;" data-badge-type="donut"
-                              data-doi="10.3389/fmicb.2021.765872" data-hide-no-mentions="true"
-                              class="altmetric-embed"></div>
-                           <span class="dimensions-badge __dimensions_badge_embed__"
-                              data-doi="10.3389/fmicb.2021.765872" data-style="small_circle"
-                              data-hide-zero-citations="true"></span>
-                        </div>
+               </div>
+            </a>
+            <a href="https://www.frontiersin.org/articles/10.3389/fmicb.2021.765872" target="_blank"
+               class="list-group-item list-group-item-action">
+               <div class="custom-container">
+                  <div class="row">
+                     <div class="col-10">
+                        <small>2021</small>
+                        <p class="publication">Dual-transcriptomic, microscopic, and biocontrol analyses of the
+                           interaction between the bioeffector <i>Pythium oligandrum</i> and the <i>Pythium</i>
+                           soft-rot of ginger pathogen <i>Pythium myriotylum</i>
+                        </p>
+                        <p>Paul Daly, Siqiao Chen, Taiqiang Xue, Jingjing Li, Taha M. Sheikh, Qimeng Zhang,
+                           Xuehai Wang, Jinfeng Zhang, David Fitzpatrick, <strong>Jamie McGowan</strong>,
+                           Xiujuan Shi, Sheng Deng, Min Jiu, Dongmei Zhou, Irina Druzhinina, Lihui Wei
+                        </p>
+                        <p><span class="badge badge-success">Frontiers in Microbiology</span> <button
+                              class="badge badge-secondary button-pdf" data-pdf-file="pdfs/fmicb-12-765872.pdf">PDF
+                              File</button></p>
+                     </div>
+                     <div class="col">
+                        <div style="text-align: right;" data-badge-type="donut" data-doi="10.3389/fmicb.2021.765872"
+                           data-hide-no-mentions="true" class="altmetric-embed"></div>
+                        <span class="dimensions-badge __dimensions_badge_embed__" data-doi="10.3389/fmicb.2021.765872"
+                           data-style="small_circle" data-hide-zero-citations="true"></span>
                      </div>
                   </div>
-               </a>
-               <a href="https://academic.oup.com/g3journal/advance-article/doi/10.1093/g3journal/jkab211/6304865"
-                  target="_blank" class="list-group-item list-group-item-action">
-                  <div class="custom-container">
-                     <div class="row">
-                        <div class="col-10">
-                           <small>2021</small>
-                           <p class="publication">Genomic diversity, chromosomal rearrangements, and interspecies
-                              hybridization in the <i>Ogataea polymorpha</i> species complex
-                           </p>
-                           <p>Sara J. Hanson, Eoin &Oacute; Cinn&eacute;ide, Letal I. Salzberg, Kenneth H. Wolfe,
-                              <strong>Jamie McGowan</strong>, David A. Fitzpatrick, Kate Matlin
-                           </p>
-                           <p><span class="badge badge-success">G3: Genes, Genomes, Genetics</span> <button class="badge badge-secondary button-pdf" data-pdf-file="pdfs/jkab211.pdf">PDF File</button></p>
-                        </div>
-                        <div class="col">
-                           <div style="text-align: right;" data-badge-type="donut"
-                              data-doi="10.1093/g3journal/jkab211" data-hide-no-mentions="true"
-                              class="altmetric-embed"></div>
-                           <span class="dimensions-badge __dimensions_badge_embed__"
-                              data-doi="10.1093/g3journal/jkab211" data-style="small_circle"
-                              data-hide-zero-citations="true"></span>
-                        </div>
+               </div>
+            </a>
+            <a href="https://academic.oup.com/g3journal/advance-article/doi/10.1093/g3journal/jkab211/6304865"
+               target="_blank" class="list-group-item list-group-item-action">
+               <div class="custom-container">
+                  <div class="row">
+                     <div class="col-10">
+                        <small>2021</small>
+                        <p class="publication">Genomic diversity, chromosomal rearrangements, and interspecies
+                           hybridization in the <i>Ogataea polymorpha</i> species complex
+                        </p>
+                        <p>Sara J. Hanson, Eoin &Oacute; Cinn&eacute;ide, Letal I. Salzberg, Kenneth H. Wolfe,
+                           <strong>Jamie McGowan</strong>, David A. Fitzpatrick, Kate Matlin
+                        </p>
+                        <p><span class="badge badge-success">G3: Genes, Genomes, Genetics</span> <button
+                              class="badge badge-secondary button-pdf" data-pdf-file="pdfs/jkab211.pdf">PDF
+                              File</button></p>
+                     </div>
+                     <div class="col">
+                        <div style="text-align: right;" data-badge-type="donut" data-doi="10.1093/g3journal/jkab211"
+                           data-hide-no-mentions="true" class="altmetric-embed"></div>
+                        <span class="dimensions-badge __dimensions_badge_embed__" data-doi="10.1093/g3journal/jkab211"
+                           data-style="small_circle" data-hide-zero-citations="true"></span>
                      </div>
                   </div>
-               </a>
-               <a href="https://www.mdpi.com/2076-2607/8/5/653" target="_blank"
-                  class="list-group-item list-group-item-action">
-                  <div class="custom-container">
-                     <div class="row">
-                        <div class="col-10">
-                           <small>2020</small>
-                           <p class="publication">Comparative Genomic and Proteomic Analyses of Three Widespread
-                              <i>Phytophthora</i> Species: <i>Phytophthora chlamydospora</i>, <i>Phytophthora
+               </div>
+            </a>
+            <a href="https://www.mdpi.com/2076-2607/8/5/653" target="_blank"
+               class="list-group-item list-group-item-action">
+               <div class="custom-container">
+                  <div class="row">
+                     <div class="col-10">
+                        <small>2020</small>
+                        <p class="publication">Comparative Genomic and Proteomic Analyses of Three Widespread
+                           <i>Phytophthora</i> Species: <i>Phytophthora chlamydospora</i>, <i>Phytophthora
                               gonapodyides</i> and <i>Phytophthora pseudosyringae</i>
-                           </p>
-                           <p><strong>Jamie McGowan</strong>, Richard O'Hanlon, Rebecca A Owens, David A
-                              Fitzpatrick
-                           </p>
-                           <p><span class="badge badge-success">Microorganisms</span> <button class="badge badge-secondary button-pdf" data-pdf-file="pdfs/microorganisms-08-00653-v2.pdf">PDF File</button></p>
-                        </div>
-                        <div class="col">
-                           <div style="text-align: right;" data-badge-type="donut"
-                              data-doi="10.3390/microorganisms8050653" data-hide-no-mentions="true"
-                              class="altmetric-embed"></div>
-                           <span class="dimensions-badge __dimensions_badge_embed__"
-                              data-doi="10.3390/microorganisms8050653" data-style="small_circle"
-                              data-hide-zero-citations="true"></span>
-                        </div>
+                        </p>
+                        <p><strong>Jamie McGowan</strong>, Richard O'Hanlon, Rebecca A Owens, David A
+                           Fitzpatrick
+                        </p>
+                        <p><span class="badge badge-success">Microorganisms</span> <button
+                              class="badge badge-secondary button-pdf"
+                              data-pdf-file="pdfs/microorganisms-08-00653-v2.pdf">PDF File</button></p>
+                     </div>
+                     <div class="col">
+                        <div style="text-align: right;" data-badge-type="donut" data-doi="10.3390/microorganisms8050653"
+                           data-hide-no-mentions="true" class="altmetric-embed"></div>
+                        <span class="dimensions-badge __dimensions_badge_embed__"
+                           data-doi="10.3390/microorganisms8050653" data-style="small_circle"
+                           data-hide-zero-citations="true"></span>
                      </div>
                   </div>
-               </a>
-               <a href="https://www.sciencedirect.com/science/article/abs/pii/S0065266020300043" target="_blank"
-                  class="list-group-item list-group-item-action">
-                  <div class="custom-container">
-                     <div class="row">
-                        <div class="col-10">
-                           <small>2020</small>
-                           <p class="publication">Recent Advances in Oomycete Genomics</p>
-                           <p><strong>Jamie McGowan</strong>, David A Fitzpatrick</p>
-                           <p><span class="badge badge-success">Advances in Genetics</span> <button class="badge badge-secondary button-pdf" data-pdf-file="pdfs/mcgowan2020.pdf">PDF File</button></p>
-                        </div>
-                        <div class="col">
-                           <div style="text-align: right;" data-badge-type="donut"
-                              data-doi="10.1016/bs.adgen.2020.03.001" data-hide-no-mentions="true"
-                              class="altmetric-embed"></div>
-                           <span class="dimensions-badge __dimensions_badge_embed__"
-                              data-doi="10.1016/bs.adgen.2020.03.001" data-style="small_circle"
-                              data-hide-zero-citations="true"></span>
-                        </div>
+               </div>
+            </a>
+            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0065266020300043" target="_blank"
+               class="list-group-item list-group-item-action">
+               <div class="custom-container">
+                  <div class="row">
+                     <div class="col-10">
+                        <small>2020</small>
+                        <p class="publication">Recent Advances in Oomycete Genomics</p>
+                        <p><strong>Jamie McGowan</strong>, David A Fitzpatrick</p>
+                        <p><span class="badge badge-success">Advances in Genetics</span> <button
+                              class="badge badge-secondary button-pdf" data-pdf-file="pdfs/mcgowan2020.pdf">PDF
+                              File</button></p>
+                     </div>
+                     <div class="col">
+                        <div style="text-align: right;" data-badge-type="donut" data-doi="10.1016/bs.adgen.2020.03.001"
+                           data-hide-no-mentions="true" class="altmetric-embed"></div>
+                        <span class="dimensions-badge __dimensions_badge_embed__"
+                           data-doi="10.1016/bs.adgen.2020.03.001" data-style="small_circle"
+                           data-hide-zero-citations="true"></span>
                      </div>
                   </div>
-               </a>
-               <a href="https://www.sciencedirect.com/science/article/pii/S096517481930356X" target="_blank"
-                  class="list-group-item list-group-item-action">
-                  <div class="custom-container">
-                     <div class="row">
-                        <div class="col-10">
-                           <small>2019</small>
-                           <p class="publication">Characterisation of three Novel &beta;-1, 3 glucanases from the
-                              Medically Important House Dust Mite <i>Dermatophagoides pteronyssinus</i> (airmid).
-                           </p>
-                           <p>Rose Waldron, <strong>Jamie McGowan</strong>, Natasha Gordon, E Bruce Mitchell, David
-                              A Fitzpatrick, Sean Doyle
-                           </p>
-                           <p><span class="badge badge-success">Insect Biochemistry and Molecular Biology</span> <button class="badge badge-secondary button-pdf" data-pdf-file="pdfs/waldron2019.pdf">PDF File</button></p>
-                        </div>
-                        <div class="col">
-                           <div style="text-align: right;" data-badge-type="donut"
-                              data-doi="10.1016/j.ibmb.2019.103242" data-hide-no-mentions="true"
-                              class="altmetric-embed"></div>
-                           <span class="dimensions-badge __dimensions_badge_embed__"
-                              data-doi="10.1016/j.ibmb.2019.103242" data-style="small_circle"
-                              data-hide-zero-citations="true"></span>
-                        </div>
+               </div>
+            </a>
+            <a href="https://www.sciencedirect.com/science/article/pii/S096517481930356X" target="_blank"
+               class="list-group-item list-group-item-action">
+               <div class="custom-container">
+                  <div class="row">
+                     <div class="col-10">
+                        <small>2019</small>
+                        <p class="publication">Characterisation of three Novel &beta;-1, 3 glucanases from the
+                           Medically Important House Dust Mite <i>Dermatophagoides pteronyssinus</i> (airmid).
+                        </p>
+                        <p>Rose Waldron, <strong>Jamie McGowan</strong>, Natasha Gordon, E Bruce Mitchell, David
+                           A Fitzpatrick, Sean Doyle
+                        </p>
+                        <p><span class="badge badge-success">Insect Biochemistry and Molecular Biology</span> <button
+                              class="badge badge-secondary button-pdf" data-pdf-file="pdfs/waldron2019.pdf">PDF
+                              File</button></p>
+                     </div>
+                     <div class="col">
+                        <div style="text-align: right;" data-badge-type="donut" data-doi="10.1016/j.ibmb.2019.103242"
+                           data-hide-no-mentions="true" class="altmetric-embed"></div>
+                        <span class="dimensions-badge __dimensions_badge_embed__" data-doi="10.1016/j.ibmb.2019.103242"
+                           data-style="small_circle" data-hide-zero-citations="true"></span>
                      </div>
                   </div>
-               </a>
-               <a href="https://academic.oup.com/g3journal/article/9/10/3057/6026652" target="_blank"
-                  class="list-group-item list-group-item-action">
-                  <div class="custom-container">
-                     <div class="row">
-                        <div class="col-10">
-                           <small>2019</small>
-                           <p class="publication">Whole Genome Sequence of the Commercially Relevant Mushroom
-                              Strain <i>Agaricus bisporus var. bisporus</i> ARP23
-                           </p>
-                           <p>Eoin O'Connor, <strong>Jamie McGowan</strong>, Charley GP McCarthy, Anica Amini,
-                              Helen Grogan, David A Fitzpatrick
-                           </p>
-                           <p><span class="badge badge-success">G3: Genes, Genomes, Genetics</span> <button class="badge badge-secondary button-pdf" data-pdf-file="pdfs/g3journal3057.pdf">PDF File</button></p>
-                        </div>
-                        <div class="col">
-                           <div style="text-align: right;" data-badge-type="donut" data-doi="10.1534/g3.119.400563"
-                              data-hide-no-mentions="true" class="altmetric-embed"></div>
-                           <span class="dimensions-badge __dimensions_badge_embed__"
-                              data-doi="10.1534/g3.119.400563" data-style="small_circle"
-                              data-hide-zero-citations="true"></span>
-                        </div>
+               </div>
+            </a>
+            <a href="https://academic.oup.com/g3journal/article/9/10/3057/6026652" target="_blank"
+               class="list-group-item list-group-item-action">
+               <div class="custom-container">
+                  <div class="row">
+                     <div class="col-10">
+                        <small>2019</small>
+                        <p class="publication">Whole Genome Sequence of the Commercially Relevant Mushroom
+                           Strain <i>Agaricus bisporus var. bisporus</i> ARP23
+                        </p>
+                        <p>Eoin O'Connor, <strong>Jamie McGowan</strong>, Charley GP McCarthy, Anica Amini,
+                           Helen Grogan, David A Fitzpatrick
+                        </p>
+                        <p><span class="badge badge-success">G3: Genes, Genomes, Genetics</span> <button
+                              class="badge badge-secondary button-pdf" data-pdf-file="pdfs/g3journal3057.pdf">PDF
+                              File</button></p>
+                     </div>
+                     <div class="col">
+                        <div style="text-align: right;" data-badge-type="donut" data-doi="10.1534/g3.119.400563"
+                           data-hide-no-mentions="true" class="altmetric-embed"></div>
+                        <span class="dimensions-badge __dimensions_badge_embed__" data-doi="10.1534/g3.119.400563"
+                           data-style="small_circle" data-hide-zero-citations="true"></span>
                      </div>
                   </div>
-               </a>
-               <a href="https://www.genetics.org/content/212/3/691" target="_blank"
-                  class="list-group-item list-group-item-action">
-                  <div class="custom-container">
-                     <div class="row">
-                        <div class="col-10">
-                           <small>2019</small>
-                           <p class="publication">Control of Development, Secondary Metabolism and Light-Dependent
-                              Carotenoid Biosynthesis by the Velvet Complex of <i>Neurospora crassa</i>
-                           </p>
-                           <p>Ozlem Sarikaya Bayram, Anne Dettmann, Betim Karahoda, Nicola M Moloney, Tereza
-                              Ormsby, <strong>Jamie McGowan</strong>, Sara Cea-Sanchez, Alejandro Miralles-Duran,
-                              Guilherme TP Brancini, Eva M Luque, David A Fitzpatrick, David Canovas, Luis M
-                              Corrochano, Sean Doyle, Eric U Selker, Stephan Seiler, Ozgur Bayram
-                           </p>
-                           <p><span class="badge badge-success">Genetics</span> <button class="badge badge-secondary button-pdf" data-pdf-file="pdfs/genetics0691.pdf">PDF File</button></p>
-                        </div>
-                        <div class="col">
-                           <div style="text-align: right;" data-badge-type="donut"
-                              data-doi="10.1534/genetics.119.302277" data-hide-no-mentions="true"
-                              class="altmetric-embed"></div>
-                           <span class="dimensions-badge __dimensions_badge_embed__"
-                              data-doi="10.1534/genetics.119.302277" data-style="small_circle"
-                              data-hide-zero-citations="true"></span>
-                        </div>
+               </div>
+            </a>
+            <a href="https://www.genetics.org/content/212/3/691" target="_blank"
+               class="list-group-item list-group-item-action">
+               <div class="custom-container">
+                  <div class="row">
+                     <div class="col-10">
+                        <small>2019</small>
+                        <p class="publication">Control of Development, Secondary Metabolism and Light-Dependent
+                           Carotenoid Biosynthesis by the Velvet Complex of <i>Neurospora crassa</i>
+                        </p>
+                        <p>Ozlem Sarikaya Bayram, Anne Dettmann, Betim Karahoda, Nicola M Moloney, Tereza
+                           Ormsby, <strong>Jamie McGowan</strong>, Sara Cea-Sanchez, Alejandro Miralles-Duran,
+                           Guilherme TP Brancini, Eva M Luque, David A Fitzpatrick, David Canovas, Luis M
+                           Corrochano, Sean Doyle, Eric U Selker, Stephan Seiler, Ozgur Bayram
+                        </p>
+                        <p><span class="badge badge-success">Genetics</span> <button
+                              class="badge badge-secondary button-pdf" data-pdf-file="pdfs/genetics0691.pdf">PDF
+                              File</button></p>
+                     </div>
+                     <div class="col">
+                        <div style="text-align: right;" data-badge-type="donut" data-doi="10.1534/genetics.119.302277"
+                           data-hide-no-mentions="true" class="altmetric-embed"></div>
+                        <span class="dimensions-badge __dimensions_badge_embed__" data-doi="10.1534/genetics.119.302277"
+                           data-style="small_circle" data-hide-zero-citations="true"></span>
                      </div>
                   </div>
-               </a>
-               <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0216171" target="_blank"
-                  class="list-group-item list-group-item-action">
-                  <div class="custom-container">
-                     <div class="row">
-                        <div class="col-10">
-                           <small>2019</small>
-                           <p class="publication">Proteome and Allergenome of the European House Dust Mite
-                              <i>Dermatophagoides pteronyssinus</i>
-                           </p>
-                           <p>Rose Waldron, <strong>Jamie McGowan</strong>, Natasha Gordon, Charley McCarthy, E
-                              Bruce Mitchell, David A Fitzpatrick
-                           </p>
-                           <p><span class="badge badge-success">PLOS One</span> <button class="badge badge-secondary button-pdf" data-pdf-file="pdfs/waldron_proteome_allergenome.pdf">PDF File</button></p>
-                        </div>
-                        <div class="col">
-                           <div style="text-align: right;" data-badge-type="donut"
-                              data-doi="10.1371/journal.pone.0216171" data-hide-no-mentions="true"
-                              class="altmetric-embed"></div>
-                           <span class="dimensions-badge __dimensions_badge_embed__"
-                              data-doi="10.1371/journal.pone.0216171" data-style="small_circle"
-                              data-hide-zero-citations="true"></span>
-                        </div>
+               </div>
+            </a>
+            <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0216171" target="_blank"
+               class="list-group-item list-group-item-action">
+               <div class="custom-container">
+                  <div class="row">
+                     <div class="col-10">
+                        <small>2019</small>
+                        <p class="publication">Proteome and Allergenome of the European House Dust Mite
+                           <i>Dermatophagoides pteronyssinus</i>
+                        </p>
+                        <p>Rose Waldron, <strong>Jamie McGowan</strong>, Natasha Gordon, Charley McCarthy, E
+                           Bruce Mitchell, David A Fitzpatrick
+                        </p>
+                        <p><span class="badge badge-success">PLOS One</span> <button
+                              class="badge badge-secondary button-pdf"
+                              data-pdf-file="pdfs/waldron_proteome_allergenome.pdf">PDF File</button></p>
+                     </div>
+                     <div class="col">
+                        <div style="text-align: right;" data-badge-type="donut" data-doi="10.1371/journal.pone.0216171"
+                           data-hide-no-mentions="true" class="altmetric-embed"></div>
+                        <span class="dimensions-badge __dimensions_badge_embed__"
+                           data-doi="10.1371/journal.pone.0216171" data-style="small_circle"
+                           data-hide-zero-citations="true"></span>
                      </div>
                   </div>
-               </a>
-               <a href="https://academic.oup.com/gbe/article-abstract/11/1/189/5238079" target="_blank"
-                  class="list-group-item list-group-item-action">
-                  <div class="custom-container">
-                     <div class="row">
-                        <div class="col-10">
-                           <small>2018</small>
-                           <p class="publication">Comparative Analysis of Oomycete Genome Evolution Using the
-                              Oomycete Gene Order Browser (OGOB)
-                           </p>
-                           <p><strong>Jamie McGowan</strong>, Kevin P Byrne, David A Fitzpatrick</p>
-                           <p><span class="badge badge-success">Genome Biology and Evolution (GBE)</span> <button class="badge badge-secondary button-pdf" data-pdf-file="pdfs/evy267.pdf">PDF File</button></p>
-                        </div>
-                        <div class="col">
-                           <div style="text-align: right;" data-badge-type="donut" data-doi="10.1093/gbe/evy267"
-                              data-hide-no-mentions="true" class="altmetric-embed"></div>
-                           <span class="dimensions-badge __dimensions_badge_embed__" data-doi="10.1093/gbe/evy267"
-                              data-style="small_circle" data-hide-zero-citations="true"></span>
-                        </div>
+               </div>
+            </a>
+            <a href="https://academic.oup.com/gbe/article-abstract/11/1/189/5238079" target="_blank"
+               class="list-group-item list-group-item-action">
+               <div class="custom-container">
+                  <div class="row">
+                     <div class="col-10">
+                        <small>2018</small>
+                        <p class="publication">Comparative Analysis of Oomycete Genome Evolution Using the
+                           Oomycete Gene Order Browser (OGOB)
+                        </p>
+                        <p><strong>Jamie McGowan</strong>, Kevin P Byrne, David A Fitzpatrick</p>
+                        <p><span class="badge badge-success">Genome Biology and Evolution (GBE)</span> <button
+                              class="badge badge-secondary button-pdf" data-pdf-file="pdfs/evy267.pdf">PDF File</button>
+                        </p>
+                     </div>
+                     <div class="col">
+                        <div style="text-align: right;" data-badge-type="donut" data-doi="10.1093/gbe/evy267"
+                           data-hide-no-mentions="true" class="altmetric-embed"></div>
+                        <span class="dimensions-badge __dimensions_badge_embed__" data-doi="10.1093/gbe/evy267"
+                           data-style="small_circle" data-hide-zero-citations="true"></span>
                      </div>
                   </div>
-               </a>
-               <a href="https://msphere.asm.org/content/2/6/e00408-17" target="_blank"
-                  class="list-group-item list-group-item-action">
-                  <div class="custom-container">
-                     <div class="row">
-                        <div class="col-10">
-                           <small>2017</small>
-                           <p class="publication">Genomic, Network, and Phylogenetic Analysis of the Oomycete
-                              Effector Arsenal
-                           </p>
-                           <p><strong>Jamie McGowan</strong>, David A Fitzpatrick</p>
-                           <p><span class="badge badge-success">mSphere</span> <button class="badge badge-secondary button-pdf" data-pdf-file="pdfs/mcgowan-et-al-2017-effector-arsenal.pdf">PDF File</button></p>
-                        </div>
-                        <div class="col">
-                           <div style="text-align: right;" data-badge-type="donut"
-                              data-doi="10.1128/mSphere.00408-17" data-hide-no-mentions="true"
-                              class="altmetric-embed"></div>
-                           <span class="dimensions-badge __dimensions_badge_embed__"
-                              data-doi="10.1128/mSphere.00408-17" data-style="small_circle"
-                              data-hide-zero-citations="true"></span>
-                        </div>
+               </div>
+            </a>
+            <a href="https://msphere.asm.org/content/2/6/e00408-17" target="_blank"
+               class="list-group-item list-group-item-action">
+               <div class="custom-container">
+                  <div class="row">
+                     <div class="col-10">
+                        <small>2017</small>
+                        <p class="publication">Genomic, Network, and Phylogenetic Analysis of the Oomycete
+                           Effector Arsenal
+                        </p>
+                        <p><strong>Jamie McGowan</strong>, David A Fitzpatrick</p>
+                        <p><span class="badge badge-success">mSphere</span> <button
+                              class="badge badge-secondary button-pdf"
+                              data-pdf-file="pdfs/mcgowan-et-al-2017-effector-arsenal.pdf">PDF File</button></p>
+                     </div>
+                     <div class="col">
+                        <div style="text-align: right;" data-badge-type="donut" data-doi="10.1128/mSphere.00408-17"
+                           data-hide-no-mentions="true" class="altmetric-embed"></div>
+                        <span class="dimensions-badge __dimensions_badge_embed__" data-doi="10.1128/mSphere.00408-17"
+                           data-style="small_circle" data-hide-zero-citations="true"></span>
                      </div>
                   </div>
-               </a>
-               <a href="https://mra.asm.org/content/5/32/e00789-17.short" target="_blank"
-                  class="list-group-item list-group-item-action">
-                  <div class="custom-container">
-                     <div class="row">
-                        <div class="col-10">
-                           <small>2017</small>
-                           <p class="publication">Draft Genome Sequence of <i>Dermatophagoides pteronyssinus</i>,
-                              the European House Dust Mite
+               </div>
+            </a>
+            <a href="https://mra.asm.org/content/5/32/e00789-17.short" target="_blank"
+               class="list-group-item list-group-item-action">
+               <div class="custom-container">
+                  <div class="row">
+                     <div class="col-10">
+                        <small>2017</small>
+                        <p class="publication">Draft Genome Sequence of <i>Dermatophagoides pteronyssinus</i>,
+                           the European House Dust Mite
                            <p>Rose Waldron, <strong>Jamie McGowan</strong>, Natasha Gordon, Charley McCarthy, E
                               Bruce Mitchell, Sean Doyle, David A Fitzpatrick
                            </p>
-                           <p><span class="badge badge-success">Genome Announcements</span> <button class="badge badge-secondary button-pdf" data-pdf-file="pdfs/waldron-2017-dermatophagoides-pteronyssinus-genome.pdf">PDF File</button></p>
-                        </div>
-                        <div class="col">
-                           <div style="text-align: right;" data-badge-type="donut"
-                              data-doi="10.1128/genomeA.00789-17" data-hide-no-mentions="true"
-                              class="altmetric-embed"></div>
-                           <span class="dimensions-badge __dimensions_badge_embed__"
-                              data-doi="10.1128/genomeA.00789-17" data-style="small_circle"
-                              data-hide-zero-citations="true"></span>
-                        </div>
+                           <p><span class="badge badge-success">Genome Announcements</span> <button
+                                 class="badge badge-secondary button-pdf"
+                                 data-pdf-file="pdfs/waldron-2017-dermatophagoides-pteronyssinus-genome.pdf">PDF
+                                 File</button></p>
+                     </div>
+                     <div class="col">
+                        <div style="text-align: right;" data-badge-type="donut" data-doi="10.1128/genomeA.00789-17"
+                           data-hide-no-mentions="true" class="altmetric-embed"></div>
+                        <span class="dimensions-badge __dimensions_badge_embed__" data-doi="10.1128/genomeA.00789-17"
+                           data-style="small_circle" data-hide-zero-citations="true"></span>
                      </div>
                   </div>
-               </a>
-            </div>
-            <br>
-            
-            <br>
-            <h3 id="tools">Tools</h3>
-            <!-- OGOB, busco phylogenomics, skim-seq, coassembly, bioinf tools, oomycete networks -->
-            <div class="row">
-               <div class="col-sm-6">
-                 <div class="card">
-                   <div class="card-body">
+               </div>
+            </a>
+         </div>
+         <br>
+
+         <br>
+         <h3 id="tools">Tools</h3>
+         <!-- OGOB, busco phylogenomics, skim-seq, coassembly, bioinf tools, oomycete networks -->
+         <div class="row">
+            <div class="col-sm-6">
+               <div class="card">
+                  <div class="card-body">
                      <h5 class="card-title">OGOB - Oomycete Gene Order Browser</h5>
-                     <p class="card-text">A curated database that facilitates comparative genomic and syntenic analyses of oomycete species</p>
+                     <p class="card-text">A curated database that facilitates comparative genomic and syntenic analyses
+                        of oomycete species</p>
                      <a href="https://ogob.ie" target="_blank" class="btn btn-secondary">OGOB</a>
-                   </div>
-                 </div>
+                  </div>
                </div>
-               <div class="col-sm-6">
-                 <div class="card">
-                   <div class="card-body">
+            </div>
+            <div class="col-sm-6">
+               <div class="card">
+                  <div class="card-body">
                      <h5 class="card-title">BUSCO Phylogenomics</h5>
-                     <p class="card-text">A simple Python pipeline to construct species phylogenies using BUSCO proteins/genes with supermatrix and supertree appraoches</p>
-                     <a href="https://github.com/jamiemcg/BUSCO_phylogenomics" target="_blank" class="btn btn-secondary">GitHub</a>
-                   </div>
-                 </div>
+                     <p class="card-text">A simple Python pipeline to construct species phylogenies using BUSCO
+                        proteins/genes with supermatrix and supertree appraoches</p>
+                     <a href="https://github.com/jamiemcg/BUSCO_phylogenomics" target="_blank"
+                        class="btn btn-secondary">GitHub</a>
+                  </div>
                </div>
-               <div class="col-sm-6">
-                 <div class="card">
-                   <div class="card-body">
+            </div>
+            <div class="col-sm-6">
+               <div class="card">
+                  <div class="card-body">
                      <h5 class="card-title">SkimSeqQC Pipeline</h5>
-                     <p class="card-text">A snakemake pipeline for QC of low-coverage skim-sequencing of genome and transcriptome data</p>
-                     <a href="https://github.com/EI-CoreBioinformatics/SkimSeqQC" target="_blank" class="btn btn-secondary">GitHub</a>
-                   </div>
-                 </div>
+                     <p class="card-text">A snakemake pipeline for QC of low-coverage skim-sequencing of genome and
+                        transcriptome data</p>
+                     <a href="https://github.com/EI-CoreBioinformatics/SkimSeqQC" target="_blank"
+                        class="btn btn-secondary">GitHub</a>
+                  </div>
                </div>
-               <div class="col-sm-6">
-                 <div class="card">
-                   <div class="card-body">
+            </div>
+            <div class="col-sm-6">
+               <div class="card">
+                  <div class="card-body">
                      <h5 class="card-title">Coassembly Pipeline</h5>
-                     <p class="card-text">A snakemake pipeline to generate and QC genome (co)assemblies and transcriptome alignment</p>
-                     <a href="https://github.com/EI-CoreBioinformatics/CoassemblyPipeline" target="_blank" class="btn btn-secondary">GitHub</a>
-                   </div>
-                 </div>
+                     <p class="card-text">A snakemake pipeline to generate and QC genome (co)assemblies and
+                        transcriptome alignment</p>
+                     <a href="https://github.com/EI-CoreBioinformatics/CoassemblyPipeline" target="_blank"
+                        class="btn btn-secondary">GitHub</a>
+                  </div>
                </div>
-               <div class="col-sm-6">
-                 <div class="card">
-                   <div class="card-body">
+            </div>
+            <div class="col-sm-6">
+               <div class="card">
+                  <div class="card-body">
                      <h5 class="card-title">Bioinf Tools</h5>
                      <p class="card-text">A collection of simple easy to use online bioinformatics tools</p>
                      <a href="https://jamiemcgowan.ie/bioinf" target="_blank" class="btn btn-secondary">Bioinf Tools</a>
-                   </div>
-                 </div>
-               </div>
-               <div class="col-sm-6">
-                  <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title">Assembly Kmer Clustering</h5>
-                      <p class="card-text">A Python/R tool to visualise and cluster contigs from a genome assembly. Useful for metagenomes or contaminated assemblies</p>
-                      <a href="https://github.com/jamiemcg/assembly_kmer_clustering" target="_blank" class="btn btn-secondary">GitHub</a>
-                    </div>
                   </div>
-                </div>
-               <div class="col-sm-6">
-                 <div class="card">
-                   <div class="card-body">
-                     <h5 class="card-title">Oomycete Networks</h5>
-                     <p class="card-text">An interactive website to explore sequence similarity networks of oomycete effector proteins</p>
-                     <a href="https://oomycetes.github.io/" target="_blank" class="btn btn-secondary">Oomycete Networks</a>
-                   </div>
-                 </div>
                </div>
-               <!-- <div class="col-sm-6">
+            </div>
+            <div class="col-sm-6">
+               <div class="card">
+                  <div class="card-body">
+                     <h5 class="card-title">Assembly Kmer Clustering</h5>
+                     <p class="card-text">A Python/R tool to visualise and cluster contigs from a genome assembly.
+                        Useful for metagenomes or contaminated assemblies</p>
+                     <a href="https://github.com/jamiemcg/assembly_kmer_clustering" target="_blank"
+                        class="btn btn-secondary">GitHub</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-6">
+               <div class="card">
+                  <div class="card-body">
+                     <h5 class="card-title">Oomycete Networks</h5>
+                     <p class="card-text">An interactive website to explore sequence similarity networks of oomycete
+                        effector proteins</p>
+                     <a href="https://oomycetes.github.io/" target="_blank" class="btn btn-secondary">Oomycete
+                        Networks</a>
+                  </div>
+               </div>
+            </div>
+            <!-- <div class="col-sm-6">
                   <div class="card">
                     <div class="card-body">
                       <h5 class="card-title">Telomere Search</h5>
@@ -610,20 +656,21 @@
                     </div>
                   </div>
                 </div> -->
-            </div>
+         </div>
 
-         </div>
       </div>
-      <footer class="footer">
-         <div class="container">
-            <p class="text-muted text-center">Jamie McGowan, 2024</p>
-         </div>
-      </footer>
-      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-      <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-      <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-      <script src="js/main.js"></script>
-   </body>
+   </div>
+   <footer class="footer">
+      <div class="container">
+         <p class="text-muted text-center">Jamie McGowan, 2024</p>
+      </div>
+   </footer>
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+   <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+   <script src="js/main.js"></script>
+</body>
+
 </html>
