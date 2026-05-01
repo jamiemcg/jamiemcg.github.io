@@ -54,7 +54,7 @@ $(document).ready(function() {
 
     $(".button-pdf").click(function(e) {
         e.preventDefault();
-        var pdf_location = $(this).data("pdf-file")
+        var pdf_location = $(this).data("pdf-file");
         window.open(pdf_location);
     });
 })
